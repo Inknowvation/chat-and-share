@@ -7,17 +7,15 @@
 var http = require("http");
 var url = require("url");
 
-function start(route) {
+function start(route,logger) {
   function onRequest(request, response) {
 
-		var pathname = url.parse(request.url).pathname,
-			postData = '';
+		var pathname = url.parse(request.url).pathname
 
 		request.setEncoding('utf8');
 
-		request.addListener('data', function (postDataChunk) {
-			postData += postDataChunk;
-                        
+		request.addListener('connection', function (stream) {
+			logger(request,pathname)                      
 		});
 
 		request.addListener('end', function () {

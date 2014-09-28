@@ -4,9 +4,10 @@
  * and open the template in the editor.
  */
 
-var server = require("./ServerSetup/Server");
-var router = require("./ServerSetup/Router");
+var server = require("./serversetup/server");
+var router = require("./serversetup/router");
+var logger = require("./serversetup/logger");
 
 console.log("Server index page has fired.");
 
-server.start(router.route);
+server.start(router.route,logger.logger);
