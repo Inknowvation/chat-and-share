@@ -4,22 +4,19 @@
  * and open the template in the editor.
  */
 
-var http = require("http");
-var url = require("url");
 
 function start(route,logger) {
+  var http = require("http");
+  var url = require("url");
   function onRequest(request, response) {
-
 		var pathname = url.parse(request.url).pathname
-
-		request.setEncoding('utf8');
-
-		request.addListener('connection', function (stream) {
-			logger(request,pathname)                      
-		});
-
-		request.addListener('end', function () {
-			route(request,pathname, response,postDataxs);
+    logger(request,pathname)
+		  request.addListener('data', function () {
+        route(request,pathname, response);
+		    });
+		  request.addListener('end', function () {
+        logger(request,pathname)
+			  route(request,pathname, response);
 		});
 	}
 

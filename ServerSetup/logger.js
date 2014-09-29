@@ -14,7 +14,7 @@ function loguserdata(request,pathname) {
      request.connection.socket.remoteAddress);
 
 
-var log = fs.createWriteStream('log.txt', {'flags': 'a'});
+var log = fs.createWriteStream('./serverlog/log.txt', {'flags': 'a'});
 // use {'flags': 'a'} to append and {'flags': 'w'} to erase and write a new file
 log.write("User request fired"+ '\r\n');
 log.write(pathname);

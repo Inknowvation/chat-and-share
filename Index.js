@@ -10,4 +10,4 @@ var logger = require("./serversetup/logger");
 
 console.log("Server index page has fired.");
 
-server.start(router.route,logger.logger);
+server.start(router.route,logger.loguserdata);
