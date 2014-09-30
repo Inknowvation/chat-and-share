@@ -12,12 +12,17 @@ function start(route,logger) {
   function onRequest(request, response) {
 
 		var pathname = url.parse(request.url).pathname
+    request.setEncoding("utf8");
 
     logger(request,pathname)
 
-		request.addListener('data', function () {
+		request.addListener('data', function (postDataChunk) {
+
+      postdata =+ postDataChunk;
+      console.log(postDataChunk);
       route(request,pathname, response);
 		    });
+
 		  request.addListener('end', function () {
 			  route(request,pathname, response);
 		});

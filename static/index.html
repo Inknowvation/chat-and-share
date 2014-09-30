@@ -8,12 +8,12 @@
 
 </head>
 <script type="text/javascript">
+
+<script type="text/javascript">
 <!-- Begin
-function popUp(URL) {
-day = new Date();
-id = day.getTime();
-eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=2,location=0,statusbar=1,menubar=1,resizable=1,width=400,height=400,left = 440,top = 200');");
-}
+$('#toggle-login').click(function(){
+  $('#login').toggle();
+});
 // End -->
 </script>
 
@@ -21,33 +21,43 @@ eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=2,lo
 <div id="topwrap">
     <div id="topheader">
         <div id="topheader-content">
-            <h2 id="slogan">Mockup </h2>		
-            <a name="top"> A data driven company</a>	
-        </div>    
-    </div>	
+            <h2 id="slogan">Mockup </h2>
+            <a name="top"> A data driven company</a>
+        </div>
+    </div>
     <div id="topcontent">
         <div id="topcontent-wrap">
+          <span href="#" class="button" id="toggle-login">Log in</span>
+
+          <div id="login">
+            <div id="triangle"></div>
+            <h1>Log in</h1>
+            <form method="post">
+              <input type="email" placeholder="Email" />
+              <input type="password" placeholder="Password" />
+              <input type="submit" value="Log in" />
+            </form>
+          </div>
             <div id="topmain">
                 <div id="mainleft">
                     <div id="contentinterface">
-                        
+
                         <div id="contentinterface-wrap">
-                            <div class="ImageMenu" ></div>
-                            <a href="#" class="stylish" onclick="javascript:popUp('index.html')">1. Connect</a>
+
                         </div>
                     </div>
                 </div>
                 <div id="mainmiddle">
                     <div id="contentselection">
                         <div id="contentselection-wrap">
-                         
+
                         </div>
                     </div>
                 </div>
                  <div id="mainright">
                     <div id="contentinterval">
                          <div id="contentinterval-wrap">
-                            
+
                          </div>
                     </div>
                 </div>
@@ -67,13 +77,13 @@ eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=2,lo
                             </div>
                             <div class="feature-content">
                                 <p class="feature-p">
-                                        Integer luctus quam ut enim eleifend facilisis. 
+                                        Integer luctus quam ut enim eleifend facilisis.
                                         Proin iaculis augue tortor, quis dapibus metus laoreet eget.
-                                        Nam facilisis felis in vehicula porta. 
-                                        Pellentesque tortor lorem, imperdiet a molestie dictum, 
-                                        tincidunt id orci. Curabitur maximus interdum dapibus. 
-                                        Cras cursus nec nulla a vestibulum. Phasellus elit turpis, 
-                                        laoreet ac viverra sed, dapibus at ante. 
+                                        Nam facilisis felis in vehicula porta.
+                                        Pellentesque tortor lorem, imperdiet a molestie dictum,
+                                        tincidunt id orci. Curabitur maximus interdum dapibus.
+                                        Cras cursus nec nulla a vestibulum. Phasellus elit turpis,
+                                        laoreet ac viverra sed, dapibus at ante.
                                         In hac habitasse platea dictumst. Ut nec purus sit amet metus tincidunt malesuada eget ullamcorper quam.
                                 </p>
                                 <p class="feature-p">
@@ -99,10 +109,10 @@ eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=2,lo
                                 <p class="feature-byline">Get started in no time.</p>
                             </div>
                             <div class="feature-content">
-                                <p class="feature-p"> 
-                                    Pellentesque tortor lorem, imperdiet a molestie dictum, 
-                                    tincidunt id orci. Curabitur maximus interdum dapibus. 
-                                    Cras cursus nec nulla a vestibulum. Phasellus elit turpis, 
+                                <p class="feature-p">
+                                    Pellentesque tortor lorem, imperdiet a molestie dictum,
+                                    tincidunt id orci. Curabitur maximus interdum dapibus.
+                                    Cras cursus nec nulla a vestibulum. Phasellus elit turpis,
                                     laoreet ac viverra sed, dapibus at ante.
                                 </p>
                                 <p class="feature-p">
@@ -118,7 +128,7 @@ eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=2,lo
                                     Pellentesque tortor lorem.
                                 </p>
                                 <p class="feature-p">
-                                    Ut nec purus sit amet metus tincidunt malesuada 
+                                    Ut nec purus sit amet metus tincidunt malesuada
                                     eget ullamcorper quam.
                                 </p>
                                 <p class="feature-p">
@@ -131,7 +141,7 @@ eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=2,lo
             </div>
         </div>
     </div>
-    
-  
+
+
 </body>
 </html>

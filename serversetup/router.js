@@ -1,4 +1,5 @@
 fs = require('fs');
+handler = require('./handler');
 
 function respondWithHTTPCode(response, code) {
 	response.writeHead(code, {'Content-Type': 'text/plain'});
@@ -21,19 +22,8 @@ function route(request,pathname, response,postData) {
 						'html': 'text/html'
         };
 
-				var staticpathname = './static' + pathname;
+				handler.handlestatic(pathname,response);
 
-				fs.exists(staticpathname, function(exists) {
-    		if (exists) {
-
-					response.writeHead(200, {'Content-Type': extensionTypes[extension]});
-					response.end(fs.readFileSync(staticpathname));
-    		}
-				else {
-					console.log('test');
-					respondWithHTTPCode(response, 404);
-				}
-				});
 
 }
 else {
