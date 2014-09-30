@@ -8,19 +8,22 @@
 function start(route,logger) {
   var http = require("http");
   var url = require("url");
+  var config = require('./config');
   function onRequest(request, response) {
+
 		var pathname = url.parse(request.url).pathname
+
     logger(request,pathname)
-		  request.addListener('data', function () {
-        route(request,pathname, response);
+
+		request.addListener('data', function () {
+      route(request,pathname, response);
 		    });
 		  request.addListener('end', function () {
-        logger(request,pathname)
 			  route(request,pathname, response);
 		});
 	}
 
-	http.createServer(onRequest).listen(8789);
+	http.createServer(onRequest).listen(config.port);
 }
 
 exports.start = start;

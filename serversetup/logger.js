@@ -1,19 +1,9 @@
 
 function loguserdata(request,pathname) {
-  var url = require("url");
+// retrieve util package thisis needed to be able to contact header
   var util = require('util');
 
-    console.log("User request fired");
-    console.log(pathname);
-    console.log(util.inspect(request.headers))
-    console.log(request.url);
-    console.log(request.connection.remoteAddress)
-    console.log(request.headers['x-forwarded-for'] ||
-     request.connection.remoteAddress ||
-     request.socket.remoteAddress ||
-     request.connection.socket.remoteAddress);
-
-
+// create write file stream
 var log = fs.createWriteStream('./serverlog/log.txt', {'flags': 'a'});
 // use {'flags': 'a'} to append and {'flags': 'w'} to erase and write a new file
 log.write("User request fired"+ '\r\n');
@@ -25,6 +15,7 @@ log.write('ip :' + (request.headers['x-forwarded-for'] ||
  request.socket.remoteAddress ||
  request.connection.socket.remoteAddress) + '\r\n');
 log.write('--------------------------------' + '\r\n');
+log.end();
 
   }
 

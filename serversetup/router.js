@@ -9,12 +9,7 @@ function route(request,pathname, response,postData) {
 
 	var extension = pathname.split('.').pop();
 
-	if ('/' === pathname) {
-             response.writeHead(200, {'Content-Type': 'text/html'});
-		response.end(fs.readFileSync('./static' + '/index.html'));
-                
-               
-	} else if ('css' === extension || 'js' === extension) {
+	 if ('html' === extension ||'css' === extension || 'js' === extension) {
 		   var extension = pathname.split('.').pop(),
         extensionTypes = {
             'css' : 'text/css',
@@ -22,14 +17,29 @@ function route(request,pathname, response,postData) {
             'jpg' : 'image/jpeg',
             'jpeg': 'image/jpeg',
             'js'  : 'application/javascript',
-            'png' : 'image/png'
+            'png' : 'image/png',
+						'html': 'text/html'
         };
-    
-    response.writeHead(200, {'Content-Type': extensionTypes[extension]});
-    response.end(fs.readFileSync('./static' + pathname));
-	} else {
-		respondWithHTTPCode(response, 404);
-	}
+
+				var staticpathname = './static' + pathname;
+
+				fs.exists(staticpathname, function(exists) {
+    		if (exists) {
+
+					response.writeHead(200, {'Content-Type': extensionTypes[extension]});
+					response.end(fs.readFileSync(staticpathname));
+    		}
+				else {
+					console.log('test');
+					respondWithHTTPCode(response, 404);
+				}
+				});
+
+}
+else {
+respondWithHTTPCode(response, 404);
+}
+
 }
 
 exports.route = route;
