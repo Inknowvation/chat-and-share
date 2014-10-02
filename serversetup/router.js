@@ -1,34 +1,32 @@
 fs = require('fs');
 handler = require('./handler');
+;
 
 function respondWithHTTPCode(response, code) {
 	response.writeHead(code, {'Content-Type': 'text/plain'});
 	response.end();
 }
 
-function route(request,pathname, response,postData) {
+	function route(request,pathname, response,postdata) {
 
 	var extension = pathname.split('.').pop();
 
-	 if ('html' === extension ||'css' === extension || 'js' === extension) {
-		   var extension = pathname.split('.').pop(),
-        extensionTypes = {
-            'css' : 'text/css',
-            'gif' : 'image/gif',
-            'jpg' : 'image/jpeg',
-            'jpeg': 'image/jpeg',
-            'js'  : 'application/javascript',
-            'png' : 'image/png',
-						'html': 'text/html'
-        };
+		if (request.method	== 'GET' && '/' === pathname){
+			handler.home(pathname,response);
+		}
+
+	 	else if ('html' === extension ||'css' === extension || 'js' === extension) {
 
 				handler.handlestatic(pathname,response);
+		}
 
+		else if (request.method	== 'POST' &&   '/login' === pathname){
+			hanlder.login(postData);
+		}
 
-}
-else {
-respondWithHTTPCode(response, 404);
-}
+	else {
+			respondWithHTTPCode(response, 404);
+		}
 
 }
 

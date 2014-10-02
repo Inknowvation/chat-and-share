@@ -3,6 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+ var qs = require('querystring')
+
+
+function respondWithHTTPCode(response, code) {
+	response.writeHead(code, {'Content-Type': 'text/plain'});
+	response.end();
+}
+
+function home(pathname,response){
+  response.writeHead(200, {'Content-Type': 'text/html'});
+  response.end(fs.readFileSync('./static/index.html'));
+
+}
 
 function handlestatic(pathname,response) {
 
@@ -19,24 +32,33 @@ function handlestatic(pathname,response) {
                'png' : 'image/png',
                'html': 'text/html'
            };
-
-
           fs.exists(staticpathname, function(exists) {
           if (exists) {
-            // handler needs to be put here still to do
             response.writeHead(200, {'Content-Type': extensionTypes[extension]});
             response.end(fs.readFileSync(staticpathname));
           }
           else {
-            // handler to deal zith invalid pathname
-            console.log('test');
+
             respondWithHTTPCode(response, 404);
           }
 
 });
 }
 
+function login(postdata){
+
+console.log(postdata);
+var post = qs.parse(postdata);
+console.log(post);
+console.log(post['user[name]']);
+console.log(post['user[password]']);
+//console.log(post.user);
+//
+
+}
+
 
 
 // Functions which will be available to external callers
 exports.handlestatic = handlestatic;
+exports.home = home;

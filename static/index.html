@@ -9,12 +9,9 @@
 </head>
 <script type="text/javascript">
 
-<script type="text/javascript">
-<!-- Begin
 $('#toggle-login').click(function(){
   $('#login').toggle();
 });
-// End -->
 </script>
 
 <body>
@@ -27,17 +24,7 @@ $('#toggle-login').click(function(){
     </div>
     <div id="topcontent">
         <div id="topcontent-wrap">
-          <span href="#" class="button" id="toggle-login">Log in</span>
 
-          <div id="login">
-            <div id="triangle"></div>
-            <h1>Log in</h1>
-            <form method="post">
-              <input type="email" placeholder="Email" />
-              <input type="password" placeholder="Password" />
-              <input type="submit" value="Log in" />
-            </form>
-          </div>
             <div id="topmain">
                 <div id="mainleft">
                     <div id="contentinterface">
@@ -50,6 +37,15 @@ $('#toggle-login').click(function(){
                 <div id="mainmiddle">
                     <div id="contentselection">
                         <div id="contentselection-wrap">
+                          <div id="login">
+                            <div id="triangle"></div>
+                            <h1>Log in</h1>
+                            <form method="POST" action = '/login'>
+                              <input type="email" placeholder="Email" name="user[name]" />
+                              <input type="password" placeholder="Password" name="user[password]" />
+                              <input type="submit" value="Log in" />
+                            </form>
+                          </div>
 
                         </div>
                     </div>
