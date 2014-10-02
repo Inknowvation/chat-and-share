@@ -60,5 +60,6 @@ console.log(post['user[password]']);
 
 
 // Functions which will be available to external callers
-exports.handlestatic = handlestatic;
 exports.home = home;
+exports.handlestatic = handlestatic;
+exports.login = login;

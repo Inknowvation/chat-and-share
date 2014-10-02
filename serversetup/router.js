@@ -15,13 +15,12 @@ function respondWithHTTPCode(response, code) {
 			handler.home(pathname,response);
 		}
 
-	 	else if ('html' === extension ||'css' === extension || 'js' === extension) {
-
+	 	else if (request.method	== 'GET' && ('html' === extension ||'css' === extension || 'js' === extension)) {
 				handler.handlestatic(pathname,response);
 		}
 
 		else if (request.method	== 'POST' &&   '/login' === pathname){
-			hanlder.login(postData);
+				handler.login(postdata);
 		}
 
 	else {
