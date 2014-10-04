@@ -10,6 +10,8 @@ function start(route,logger) {
   var url = require("url");
   var config = require('./config');
   //postdata = '';
+  var mongoose = require('mongoose');
+
   function onRequest(request, response) {
 
 		var pathname = url.parse(request.url).pathname
@@ -35,6 +37,13 @@ function start(route,logger) {
 	}
 
 	http.createServer(onRequest).listen(config.port);
+
+  var connStr = 'mongodb://localhost:27017/test';
+  mongoose.connect(connStr, function(err) {
+    if (err) throw err;
+    console.log('Successfully connected to MongoDB');
+    });
+
 }
 
 exports.start = start;

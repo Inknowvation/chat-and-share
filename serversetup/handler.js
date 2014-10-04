@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
  var qs = require('querystring')
+ var mongoose = require('mongoose'),
+    User = require('/Users/mathieuvandenmooter/atom/chat-and-share/data/models/user_model.js');
 
 
 
@@ -49,13 +51,44 @@ function handlestatic(pathname,response) {
 
 function login(postdata){
 
+
 console.log(postdata);
 var post = qs.parse(postdata);
 console.log(post);
 console.log(post['user[name]']);
 console.log(post['user[password]']);
-//console.log(post.user);
-//
+
+
+
+
+// create a user a new user
+var SaveUser = new User({
+    username: post['user[name]'],
+    password: post['user[password]']
+});
+
+// save user to database
+SaveUser.save(function(err) {
+    if (err) throw err;
+
+// fetch user and test password verification
+User.findOne({ username: post['user[name]'] }, function(err, user) {
+    if (err) throw err;
+
+    // test a matching password
+    user.comparePassword(post['user[password]'], function(err, isMatch) {
+        if (err) throw err;
+        console.log(post['user[password]'], isMatch);
+    });
+
+    // test a failing password
+    user.comparePassword(post['user[password]'], function(err, isMatch) {
+        if (err) throw err;
+        console.log(post['user[password]'], isMatch);
+    });
+});
+
+});
 
 }
 
