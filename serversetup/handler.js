@@ -53,42 +53,35 @@ function login(postdata){
 
 
 console.log(postdata);
-var post = qs.parse(postdata);
 console.log(post);
 console.log(post['user[name]']);
 console.log(post['user[password]']);
 
-
-
-
-// create a user a new user
-var SaveUser = new User({
-    username: post['user[name]'],
-    password: post['user[password]']
-});
-
-// save user to database
-SaveUser.save(function(err) {
-    if (err) throw err;
-
-// fetch user and test password verification
-User.findOne({ username: post['user[name]'] }, function(err, user) {
-    if (err) throw err;
-
-    // test a matching password
-    user.comparePassword(post['user[password]'], function(err, isMatch) {
+var post = qs.parse(postdata);
+User.getAuthenticated(post['user[name]'], post['user[password]'], function(err, user, reason) {
         if (err) throw err;
-        console.log(post['user[password]'], isMatch);
-    });
 
-    // test a failing password
-    user.comparePassword(post['user[password]'], function(err, isMatch) {
-        if (err) throw err;
-        console.log(post['user[password]'], isMatch);
-    });
-});
+        // login was successful if we have a user
+        if (user) {
+            // handle login success
+            console.log('login success');
+            return;
+        }
 
-});
+        // otherwise we can determine why we failed
+        var reasons = User.failedLogin;
+        switch (reason) {
+            case reasons.NOT_FOUND:
+            case reasons.PASSWORD_INCORRECT:
+                // note: these cases are usually treated the same - don't tell
+                // the user *why* the login failed, only that it did
+                break;
+            case reasons.MAX_ATTEMPTS:
+                // send email or otherwise notify user that account is
+                // temporarily locked
+                break;
+        }
+    });
 
 }
 
