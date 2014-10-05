@@ -227,7 +227,7 @@ tbody:hover tr:hover td {
 	text-shadow: 0 1px 0 #fff;
 }
 h2{
-    text-align: center;
+    text-align: left;
 }
 table.scroll tbody {
     height: 200px;
