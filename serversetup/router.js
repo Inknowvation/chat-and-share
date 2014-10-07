@@ -13,6 +13,7 @@ function respondWithHTTPCode(response, code) {
 
 		if (request.method	== 'GET' && '/' === pathname){
 			handler.home(pathname,response);
+			console.log('succes');
 		}
 
 	 	else if (request.method	== 'GET' && ('html' === extension ||'css' === extension || 'js' === extension)) {

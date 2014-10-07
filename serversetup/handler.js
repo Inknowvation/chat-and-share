@@ -50,14 +50,9 @@ function handlestatic(pathname,response) {
 }
 
 function login(postdata){
-
-
-console.log(postdata);
-console.log(post);
-console.log(post['user[name]']);
-console.log(post['user[password]']);
-
 var post = qs.parse(postdata);
+console.log(post);
+
 User.getAuthenticated(post['user[name]'], post['user[password]'], function(err, user, reason) {
         if (err) throw err;
 

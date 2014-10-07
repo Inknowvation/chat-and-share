@@ -40,11 +40,11 @@ function start(route,logger) {
 
 //Commented because need to figure out how to send info to client when login attempt was succesfull
 
-  //var connStr = 'mongodb://localhost:27017/test';
-  //mongoose.connect(connStr, function(err) {
-    //if (err) throw err;
-    //console.log('Successfully connected to MongoDB');
-    //});
+  var connStr = 'mongodb://localhost:27017/test';
+  mongoose.connect(connStr, function(err) {
+    if (err) throw err;
+    console.log('Successfully connected to MongoDB');
+    });
 
 }
 
