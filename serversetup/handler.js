@@ -49,17 +49,22 @@ function handlestatic(pathname,response) {
 });
 }
 
-function login(postdata){
+function login(postdata,response){
 var post = qs.parse(postdata);
+var reason = 'fail';
 console.log(post);
+console.log('testje');
+console.log(post['username']);
 
-User.getAuthenticated(post['user[name]'], post['user[password]'], function(err, user, reason) {
+User.getAuthenticated(post['username'], post['password'], function(err, user, reason) {
         if (err) throw err;
 
         // login was successful if we have a user
         if (user) {
             // handle login success
             console.log('login success');
+            response.writeHead(200, {'Content-Type': 'text/html'});
+            response.end(post['username']);
             return;
         }
 
@@ -67,6 +72,7 @@ User.getAuthenticated(post['user[name]'], post['user[password]'], function(err, 
         var reasons = User.failedLogin;
         switch (reason) {
             case reasons.NOT_FOUND:
+
             case reasons.PASSWORD_INCORRECT:
                 // note: these cases are usually treated the same - don't tell
                 // the user *why* the login failed, only that it did
