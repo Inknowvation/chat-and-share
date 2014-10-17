@@ -11246,3 +11246,409 @@ userstamp: { host: 'localhost:8888',
   'x-requested-with': 'XMLHttpRequest' }
 ip :127.0.0.1
 --------------------------------
+User request fired
+/timestamp: Thu Oct 16 2014 21:20:12 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language': 'nl-nl',
+  connection: 'keep-alive',
+  'accept-encoding': 'gzip, deflate',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/CSS/Maincss.csstimestamp: Thu Oct 16 2014 21:20:12 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  connection: 'keep-alive',
+  accept: 'text/css,*/*;q=0.1',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  'accept-language': 'nl-nl',
+  referer: 'http://localhost:8888/',
+  'accept-encoding': 'gzip, deflate' }
+User request fired
+ip :127.0.0.1
+/js/login.js--------------------------------
+timestamp: Thu Oct 16 2014 21:20:12 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  'accept-language': 'nl-nl',
+  referer: 'http://localhost:8888/',
+  'accept-encoding': 'gzip, deflate' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/...timestamp: Thu Oct 16 2014 21:20:12 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  'accept-language': 'nl-nl',
+  referer: 'http://localhost:8888/',
+  'accept-encoding': 'gzip, deflate' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/favicon.icotimestamp: Thu Oct 16 2014 21:20:12 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  'accept-language': 'nl-nl',
+  referer: 'http://localhost:8888/',
+  'accept-encoding': 'gzip, deflate' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/logintimestamp: Thu Oct 16 2014 21:20:41 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  origin: 'http://localhost:8888',
+  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding': 'gzip, deflate',
+  'content-length': '46',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  referer: 'http://localhost:8888/',
+  'accept-language': 'nl-nl',
+  'x-requested-with': 'XMLHttpRequest' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/timestamp: Thu Oct 16 2014 21:55:50 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language': 'nl-nl',
+  connection: 'keep-alive',
+  'accept-encoding': 'gzip, deflate',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/CSS/Maincss.csstimestamp: Thu Oct 16 2014 21:55:50 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  connection: 'keep-alive',
+  accept: 'text/css,*/*;q=0.1',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  'accept-language': 'nl-nl',
+  referer: 'http://localhost:8888/',
+  'accept-encoding': 'gzip, deflate' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/js/login.jstimestamp: Thu Oct 16 2014 21:55:50 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  'accept-language': 'nl-nl',
+  referer: 'http://localhost:8888/',
+  'accept-encoding': 'gzip, deflate' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/...timestamp: Thu Oct 16 2014 21:55:50 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  'accept-language': 'nl-nl',
+  referer: 'http://localhost:8888/',
+  'accept-encoding': 'gzip, deflate' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/logintimestamp: Thu Oct 16 2014 21:56:11 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  origin: 'http://localhost:8888',
+  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding': 'gzip, deflate',
+  'content-length': '46',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  referer: 'http://localhost:8888/',
+  'accept-language': 'nl-nl',
+  'x-requested-with': 'XMLHttpRequest' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/timestamp: Thu Oct 16 2014 21:56:54 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language': 'nl-nl',
+  connection: 'keep-alive',
+  'accept-encoding': 'gzip, deflate',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/CSS/Maincss.csstimestamp: Thu Oct 16 2014 21:56:54 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  connection: 'keep-alive',
+  accept: 'text/css,*/*;q=0.1',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  'accept-language': 'nl-nl',
+  referer: 'http://localhost:8888/',
+  'accept-encoding': 'gzip, deflate' }
+ip :127.0.0.1
+User request fired
+--------------------------------
+/js/login.jstimestamp: Thu Oct 16 2014 21:56:54 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  'accept-language': 'nl-nl',
+  referer: 'http://localhost:8888/',
+  'accept-encoding': 'gzip, deflate' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/...timestamp: Thu Oct 16 2014 21:56:54 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  'accept-language': 'nl-nl',
+  referer: 'http://localhost:8888/',
+  'accept-encoding': 'gzip, deflate' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/logintimestamp: Thu Oct 16 2014 21:57:22 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  origin: 'http://localhost:8888',
+  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding': 'gzip, deflate',
+  'content-length': '46',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  referer: 'http://localhost:8888/',
+  'accept-language': 'nl-nl',
+  'x-requested-with': 'XMLHttpRequest' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/logintimestamp: Thu Oct 16 2014 22:03:17 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  origin: 'http://localhost:8888',
+  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding': 'gzip, deflate',
+  'content-length': '46',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  referer: 'http://localhost:8888/',
+  'accept-language': 'nl-nl',
+  'x-requested-with': 'XMLHttpRequest' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/logintimestamp: Thu Oct 16 2014 22:06:27 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  origin: 'http://localhost:8888',
+  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding': 'gzip, deflate',
+  'content-length': '46',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  referer: 'http://localhost:8888/',
+  'accept-language': 'nl-nl',
+  'x-requested-with': 'XMLHttpRequest' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/logintimestamp: Thu Oct 16 2014 22:12:59 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  origin: 'http://localhost:8888',
+  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding': 'gzip, deflate',
+  'content-length': '46',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  referer: 'http://localhost:8888/',
+  'accept-language': 'nl-nl',
+  'x-requested-with': 'XMLHttpRequest' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/timestamp: Thu Oct 16 2014 22:19:37 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language': 'nl-nl',
+  connection: 'keep-alive',
+  'accept-encoding': 'gzip, deflate',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/CSS/Maincss.csstimestamp: Thu Oct 16 2014 22:19:37 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  connection: 'keep-alive',
+  accept: 'text/css,*/*;q=0.1',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  'accept-language': 'nl-nl',
+  referer: 'http://localhost:8888/',
+  'accept-encoding': 'gzip, deflate' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/js/login.jstimestamp: Thu Oct 16 2014 22:19:37 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  'accept-language': 'nl-nl',
+  referer: 'http://localhost:8888/',
+  'accept-encoding': 'gzip, deflate' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/...timestamp: Thu Oct 16 2014 22:19:37 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  'accept-language': 'nl-nl',
+  referer: 'http://localhost:8888/',
+  'accept-encoding': 'gzip, deflate' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/logintimestamp: Thu Oct 16 2014 22:19:50 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  origin: 'http://localhost:8888',
+  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding': 'gzip, deflate',
+  'content-length': '46',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  referer: 'http://localhost:8888/',
+  'accept-language': 'nl-nl',
+  'x-requested-with': 'XMLHttpRequest' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/timestamp: Thu Oct 16 2014 22:49:40 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language': 'nl-nl',
+  connection: 'keep-alive',
+  'accept-encoding': 'gzip, deflate',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/CSS/Maincss.csstimestamp: Thu Oct 16 2014 22:49:40 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  connection: 'keep-alive',
+  accept: 'text/css,*/*;q=0.1',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  'accept-language': 'nl-nl',
+  referer: 'http://localhost:8888/',
+  'accept-encoding': 'gzip, deflate' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/js/login.jstimestamp: Thu Oct 16 2014 22:49:40 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  'accept-language': 'nl-nl',
+  referer: 'http://localhost:8888/',
+  'accept-encoding': 'gzip, deflate' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/...timestamp: Thu Oct 16 2014 22:49:40 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  'accept-language': 'nl-nl',
+  referer: 'http://localhost:8888/',
+  'accept-encoding': 'gzip, deflate' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/logintimestamp: Thu Oct 16 2014 22:49:57 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  origin: 'http://localhost:8888',
+  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding': 'gzip, deflate',
+  'content-length': '46',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  referer: 'http://localhost:8888/',
+  'accept-language': 'nl-nl',
+  'x-requested-with': 'XMLHttpRequest' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/logintimestamp: Thu Oct 16 2014 22:51:52 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  origin: 'http://localhost:8888',
+  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding': 'gzip, deflate',
+  'content-length': '46',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  referer: 'http://localhost:8888/',
+  'accept-language': 'nl-nl',
+  'x-requested-with': 'XMLHttpRequest' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/logintimestamp: Thu Oct 16 2014 22:52:57 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  origin: 'http://localhost:8888',
+  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding': 'gzip, deflate',
+  'content-length': '46',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  referer: 'http://localhost:8888/',
+  'accept-language': 'nl-nl',
+  'x-requested-with': 'XMLHttpRequest' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/logintimestamp: Thu Oct 16 2014 22:54:01 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  origin: 'http://localhost:8888',
+  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding': 'gzip, deflate',
+  'content-length': '46',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  referer: 'http://localhost:8888/',
+  'accept-language': 'nl-nl',
+  'x-requested-with': 'XMLHttpRequest' }
+ip :127.0.0.1
+--------------------------------
+User request fired
+/logintimestamp: Thu Oct 16 2014 22:54:07 GMT+0200 (CEST)
+userstamp: { host: 'localhost:8888',
+  origin: 'http://localhost:8888',
+  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding': 'gzip, deflate',
+  'content-length': '46',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10',
+  referer: 'http://localhost:8888/',
+  'accept-language': 'nl-nl',
+  'x-requested-with': 'XMLHttpRequest' }
+ip :127.0.0.1
+--------------------------------

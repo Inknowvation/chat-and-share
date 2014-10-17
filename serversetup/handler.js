@@ -4,8 +4,9 @@
  * and open the template in the editor.
  */
  var qs = require('querystring')
- var mongoose = require('mongoose'),
-    User = require('/Users/mathieuvandenmooter/atom/chat-and-share/data/models/user_model.js');
+ var mongoose = require('mongoose')
+  var  User = require('/Users/mathieuvandenmooter/atom/chat-and-share/data/models/user_model.js')
+  var  Session = require('/Users/mathieuvandenmooter/atom/chat-and-share/data/models/session_model.js');
 
 
 
@@ -49,7 +50,7 @@ function handlestatic(pathname,response) {
 });
 }
 
-function login(postdata,response){
+function login(postdata,response,request,pathname){
 var post = qs.parse(postdata);
 var reason = 'fail';
 console.log(post);
@@ -61,6 +62,19 @@ User.getAuthenticated(post['username'], post['password'], function(err, user, re
 
         // login was successful if we have a user
         if (user) {
+          var newsession = new Session({
+            sessionid: '12345678',
+            sessionname: 'Sessionuser',
+            servername: pathname,
+            username: post['username'],
+            userip:  request.connection.remoteAddress ,
+            usersecret: '',
+            exprires: ''
+          })
+
+          Session.getSession(newsession, function(err){
+            if(err) throw err;
+          });
             // handle login success
             console.log('login success');
             response.writeHead(200, {'Content-Type': 'text/html'});
