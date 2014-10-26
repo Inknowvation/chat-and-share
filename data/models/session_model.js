@@ -29,7 +29,7 @@ SessionSchema.pre('save', function(next) {
 
             // set the hashed password back on our user document
             session.usersecret = hash;
-            session.sessionid = session.makeid;
+            //session.sessionid = session.makeid;
             next();
         });
     });
@@ -49,16 +49,16 @@ SessionSchema.statics.getSession = function(inputsession, cb) {
     });
 };
 
-UserSchema.methods.makeid = function( cb) {
-  var text = "";
-  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+//UserSchema.methods.makeid = function( cb) {
+//  var text = "";
+//  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-  for( var i=0; i < 5; i++ )
-      text += possible.charAt(Math.floor(Math.random() * possible.length));
+//  for( var i=0; i < 5; i++ )
+//      text += possible.charAt(Math.floor(Math.random() * possible.length));
 
-  return text;
-    });
-};
+//  return text;
+//    }
+//}
 
 
 

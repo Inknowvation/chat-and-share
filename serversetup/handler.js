@@ -59,9 +59,9 @@ console.log(post['username']);
 
 User.getAuthenticated(post['username'], post['password'], function(err, user, reason) {
         if (err) throw err;
-
         // login was successful if we have a user
         if (user) {
+          //create session
           var newsession = new Session({
             sessionid: '12345678',
             sessionname: 'Sessionuser',
