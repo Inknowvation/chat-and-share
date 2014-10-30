@@ -14,8 +14,8 @@ $(document).ready(function() {
       var posting = $.post( '/login',    {  username: $("#username").val(), password: $("#password").val()} );
       posting.done(function( data ) {
       var content = data;
-
-createCookie('ppkcookie',data,1);
+console.log(content + 'returneddate');
+createCookie('sessionid',data,1);
 
     console.log(content);
     });

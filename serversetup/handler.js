@@ -53,8 +53,9 @@ function handlestatic(pathname,response) {
 function login(postdata,response,request,pathname){
 var post = qs.parse(postdata);
 var reason = 'fail';
+
+console.log('login reached');
 console.log(post);
-console.log('testje');
 console.log(post['username']);
 
 User.getAuthenticated(post['username'], post['password'], function(err, user, reason) {
@@ -62,6 +63,7 @@ User.getAuthenticated(post['username'], post['password'], function(err, user, re
         // login was successful if we have a user
         if (user) {
           //create session
+          console.log('userfound');
           var newsession = new Session({
             sessionid: '12345678',
             sessionname: 'Sessionuser',
@@ -77,8 +79,9 @@ User.getAuthenticated(post['username'], post['password'], function(err, user, re
           });
             // handle login success
             console.log('login success');
+            console.log(newsession.sessionid);
             response.writeHead(200, {'Content-Type': 'text/html'});
-            response.end(post['username']);
+            response.end(newsession.sessionid);
             return;
         }
 
