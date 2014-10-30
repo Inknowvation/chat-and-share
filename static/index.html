@@ -7,7 +7,10 @@
 <title>Playlist Generator</title>
 
 </head>
-<script language="JavaScript" src=""></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+<script type="text/javascript" src="js/session.js"></script>
+
 <body>
 <div id="topwrap">
     <div id="topheader">
@@ -34,10 +37,10 @@
                           <div id="login">
                             <div id="triangle"></div>
                             <h1>Log in</h1>
-                            <form method="POST" action = '/login'>
-                              <input type="email" placeholder="Email" name="user[name]" />
-                              <input type="password" placeholder="Password" name="user[password]" />
-                              <input type="submit" value="Log in" />
+                            <form id="ajaxlogin" action="" >
+                              <input  type="email" id="username" placeholder="Email" name="user[name]" />
+                              <input  type="password" id="password" placeholder="Password" name="user[password]" />
+                              <input id = "submit"type="submit" value="Log in" />
                             </form>
                           </div>
 

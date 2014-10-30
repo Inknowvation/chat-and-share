@@ -4,8 +4,9 @@
  * and open the template in the editor.
  */
  var qs = require('querystring')
- var mongoose = require('mongoose'),
-    User = require('/Users/mathieuvandenmooter/atom/chat-and-share/data/models/user_model.js');
+ var mongoose = require('mongoose')
+  var  User = require('/Users/mathieuvandenmooter/atom/chat-and-share/data/models/user_model.js')
+  var  Session = require('/Users/mathieuvandenmooter/atom/chat-and-share/data/models/session_model.js');
 
 
 
@@ -49,22 +50,38 @@ function handlestatic(pathname,response) {
 });
 }
 
-function login(postdata){
-
-
-console.log(postdata);
-console.log(post);
-console.log(post['user[name]']);
-console.log(post['user[password]']);
-
+function login(postdata,response,request,pathname){
 var post = qs.parse(postdata);
-User.getAuthenticated(post['user[name]'], post['user[password]'], function(err, user, reason) {
-        if (err) throw err;
+var reason = 'fail';
 
+console.log('login reached');
+console.log(post);
+console.log(post['username']);
+
+User.getAuthenticated(post['username'], post['password'], function(err, user, reason) {
+        if (err) throw err;
         // login was successful if we have a user
         if (user) {
+          //create session
+          console.log('userfound');
+          var newsession = new Session({
+            sessionid: '12345678',
+            sessionname: 'Sessionuser',
+            servername: pathname,
+            username: post['username'],
+            userip:  request.connection.remoteAddress ,
+            usersecret: '',
+            exprires: ''
+          })
+
+          Session.getSession(newsession, function(err){
+            if(err) throw err;
+          });
             // handle login success
             console.log('login success');
+            console.log(newsession.sessionid);
+            response.writeHead(200, {'Content-Type': 'text/html'});
+            response.end(newsession.sessionid);
             return;
         }
 
@@ -72,6 +89,7 @@ User.getAuthenticated(post['user[name]'], post['user[password]'], function(err, 
         var reasons = User.failedLogin;
         switch (reason) {
             case reasons.NOT_FOUND:
+
             case reasons.PASSWORD_INCORRECT:
                 // note: these cases are usually treated the same - don't tell
                 // the user *why* the login failed, only that it did
