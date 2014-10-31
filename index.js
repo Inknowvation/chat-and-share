@@ -1,8 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/* Starting point of the website:
+the var server refers to a separate file with holds the server information
+the server.start actually initialises the server
+*/
 
 var server = require("./serversetup/server");
 var router = require("./serversetup/router");

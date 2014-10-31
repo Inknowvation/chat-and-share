@@ -1,14 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
- var qs = require('querystring')
- var mongoose = require('mongoose')
-  var  User = require('/Users/mathieuvandenmooter/atom/chat-and-share/data/models/user_model.js')
-  var  Session = require('/Users/mathieuvandenmooter/atom/chat-and-share/data/models/session_model.js');
-
-
+/* The handler deals with all the "business" logic after being send through by the router.
+The server reads the request, the router decides how it should be handled and handler does the work.
+*/
+  var qs = require('querystring')
+  var mongoose = require('mongoose')
+  var  User = require('../data/models/user_model.js')
+  var  Session = require('../data/models/session_model.js');
 
 
 function respondWithHTTPCode(response, code) {
