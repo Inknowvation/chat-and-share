@@ -6,6 +6,7 @@ function createCookie(name,value,days) {
     }
     else var expires = "";
     document.cookie = name+"="+value+expires+"; path=/";
+    console.log('debug');
 }
 
 $(document).ready(function() {
@@ -14,10 +15,9 @@ $(document).ready(function() {
       var posting = $.post( '/login',    {  username: $("#username").val(), password: $("#password").val()} );
       posting.done(function( data ) {
       var content = data;
-console.log(content + 'returneddate');
-createCookie('sessionid',data,1);
-
-    console.log(content);
+      console.log(content + 'returnedsessionlogin');
+      createCookie('sessionid',data,1);
+      console.log(content);
     });
   });
 });

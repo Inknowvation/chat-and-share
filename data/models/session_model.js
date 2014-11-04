@@ -35,16 +35,13 @@ SessionSchema.pre('save', function(next) {
     });
 });
 
-SessionSchema.statics.getSession = function(inputsession, cb) {
-    this.findOne({ sessionid: inputsession.sessionid }, function(err, session) {
+SessionSchema.statics.getSession = function(sessionid, cb) {
+    this.findOne({ sessionid: sessionid }, function(err, session) {
         if (err) return cb(err);
 
         // make sure the session exists
-        if (!session) {
-        inputsession.save(function(err) {
-            if (err) throw err;
-
-          });
+        if (session) {
+        return(null,session)
         }
     });
 };

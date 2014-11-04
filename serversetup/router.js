@@ -1,8 +1,8 @@
 // Waarom moet dit niet in variabelen ?
 
-fs = require('fs');
-handler = require('./handler');
-;
+ fs = require('fs');
+ handler = require('./handler');
+
 
 function respondWithHTTPCode(response, code) {
 	response.writeHead(code, {'Content-Type': 'text/plain'});
@@ -23,7 +23,6 @@ function respondWithHTTPCode(response, code) {
 // the first route routes everything to the homepage if no extension is specifieds
 		if (request.method	== 'GET' && '/' === pathname){
 			handler.home(pathname,response);
-			console.log('/');
 		}
 
 // the second route sends everything that ends with html, css or js through to the handlestatic
@@ -34,6 +33,10 @@ function respondWithHTTPCode(response, code) {
 // the third route is a POST where the user dumps data towards the server on the login page
 		else if (request.method	== 'POST' &&   '/login' === pathname){
 				handler.login(postdata,response,request,pathname);
+		}
+// the session route
+		else if (request.method	== 'POST' &&   '/session' === pathname){
+				handler.checksession(postdata,response);
 		}
 
 // everthing else is blocked with a 404

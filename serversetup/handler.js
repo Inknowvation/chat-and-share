@@ -74,9 +74,10 @@ User.getAuthenticated(post['username'], post['password'], function(err, user, re
             exprires: ''
           })
 
-          Session.getSession(newsession, function(err){
-            if(err) throw err;
-          });
+      //  newsession.save(function (err) {
+      //    console.log(err.message) // something went wrong
+      //  });
+
             // handle login success
             console.log('login success');
             console.log(newsession.sessionid);
@@ -104,8 +105,36 @@ User.getAuthenticated(post['username'], post['password'], function(err, user, re
 }
 
 
+function checksession(postdata,response){
+var post = qs.parse(postdata);
+var reason = 'fail';
+
+console.log('check session reached');
+console.log(post);
+console.log(post['sessionid']);
+
+Session.getSession(post['sessionid'], function(err, session, reason) {
+        if (err) throw err;
+        // login was successful if we have a user
+        if (session) {
+          //create session
+          console.log('sessionfound');
+
+            // handle session success
+            console.log('session success');
+            console.log(session.sessionid);
+            response.writeHead(200, {'Content-Type': 'text/html'});
+            response.end(session);
+            return;
+        }
+
+    });
+
+}
+
 
 // Functions which will be available to external callers
 exports.home = home;
 exports.handlestatic = handlestatic;
 exports.login = login;
+exports.checksession = checksession;
