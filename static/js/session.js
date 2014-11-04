@@ -9,28 +9,22 @@ function getCookie(cname) {
     return "";
 }
 
-function checkCookie() {
- var sessionid=getCookie("sessionid");
- if (sessionid!="") {
-     console.log('gotcookie');
- }else{
-   console.log('didnotgetcookie');
-     var posting = $.post( '/admin.html');
-     posting.done(function( data ) {
-     var content = data;
-
-createCookie('sessionid',content,1);
-
-   console.log(content);
-   });
- }
-}
-
-function eraseCookie(name) {
-    createCookie(name,"",-1);
-}
 
 $(function(){
-  console.log('document');
-  checkCookie() ;
+var sessionid=getCookie("sessionid");
+  if (sessionid!="") {
+     var posting = $.post( '/session' ,{sessionidvalue: sessionid} );
+     posting.done(function( data ) {
+     var content = data;
+     });
+     }
+  else{
+    window.location.replace("/");
+     }
 });
+
+
+
+//function eraseCookie(name) {
+//    createCookie(name,"",-1);
+//}
