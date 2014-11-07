@@ -54,18 +54,13 @@ function login(postdata,response,request,pathname){
 var post = qs.parse(postdata);
 var reason = 'fail';
 
-console.log('login reached');
-console.log(post);
-console.log(post['username']);
-
 User.getAuthenticated(post['username'], post['password'], function(err, user, reason) {
         if (err) throw err;
         // login was successful if we have a user
         if (user) {
           //create session
-          console.log('userfound');
           var newsession = new Session({
-            sessionid: '12345678',
+            sessionid: '',
             sessionname: 'Sessionuser',
             servername: pathname,
             username: post['username'],

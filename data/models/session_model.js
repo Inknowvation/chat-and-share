@@ -16,9 +16,6 @@ var SessionSchema = new Schemae({
 SessionSchema.pre('save', function(next) {
     var session = this;
 
-    // only hash the password if it has been modified (or is new)
-    if (!session.isModified('sessionid')) return next();
-
     // generate a salt
     bcrypt.genSalt(SALT_WORK_FACTOR, function(err, salt) {
         if (err) return next(err);
@@ -26,13 +23,27 @@ SessionSchema.pre('save', function(next) {
         // hash the password using our new salt
         bcrypt.hash(session.username, salt, function (err, hash) {
             if (err) return next(err);
-
             // set the hashed password back on our user document
             session.usersecret = hash;
             //session.sessionid = session.makeid;
             next();
         });
+
+        charSet =  'ABCDEFGHIJK34567890-)(*&^%$#@#$%^&*({}":LKJHGFDFLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        var randomString = '';
+        for (var i = 0; i < 20; i++) {
+          var randomPoz = Math.floor(Math.random() * charSet.length);
+          randomString += charSet.substring(randomPoz,randomPoz+1);
+        }
+
+        session.sessionid = randomString
+
     });
+
+
+
+
+
 });
 
 SessionSchema.statics.getSession = function(sessionid, cb) {
@@ -46,15 +57,15 @@ SessionSchema.statics.getSession = function(sessionid, cb) {
     });
 };
 
-//UserSchema.methods.makeid = function( cb) {
-//  var text = "";
-//  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-
-//  for( var i=0; i < 5; i++ )
-//      text += possible.charAt(Math.floor(Math.random() * possible.length));
-
-//  return text;
-//    }
+UserSchema.methods.makeid = function (len, charSet) {
+    charSet = charSet || 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var randomString = '';
+    for (var i = 0; i < len; i++) {
+    	var randomPoz = Math.floor(Math.random() * charSet.length);
+    	randomString += charSet.substring(randomPoz,randomPoz+1);
+    }
+    return randomString;
+}
 //}
 
 

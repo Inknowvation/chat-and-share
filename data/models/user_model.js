@@ -11,7 +11,8 @@ var UserSchema = new Schema({
     username: { type: String, required: true, index: { unique: true } },
     password: { type: String, required: true },
     loginAttempts: { type: Number, required: true, default: 0 },
-    lockUntil: { type: Number }
+    lockUntil: { type: Number },
+    loggedIn: { type: Number, required: true, default: 0 }
 });
 
 UserSchema.virtual('isLocked').get(function() {
@@ -21,9 +22,6 @@ UserSchema.virtual('isLocked').get(function() {
 
 UserSchema.pre('save', function(next) {
     var user = this;
-
-    // only hash the password if it has been modified (or is new)
-    if (!user.isModified('password')) return next();
 
     // generate a salt
     bcrypt.genSalt(SALT_WORK_FACTOR, function(err, salt) {
