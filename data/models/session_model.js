@@ -15,10 +15,7 @@ var SessionSchema = new Schemae({
 
 SessionSchema.pre('save', function(next) {
     var session = this;
-
-    // only hash the password if it has been modified (or is new)
-    if (!session.isModified('sessionid')) return next();
-
+console.log('sessionmodel1');
     // generate a salt
     bcrypt.genSalt(SALT_WORK_FACTOR, function(err, salt) {
         if (err) return next(err);
@@ -26,19 +23,24 @@ SessionSchema.pre('save', function(next) {
         // hash the password using our new salt
         bcrypt.hash(session.username, salt, function (err, hash) {
             if (err) return next(err);
-
             // set the hashed password back on our user document
             session.usersecret = hash;
             //session.sessionid = session.makeid;
             next();
         });
+
+
     });
+
+
+
+
+
 });
 
 SessionSchema.statics.getSession = function(sessionid, cb) {
     this.findOne({ sessionid: sessionid }, function(err, session) {
         if (err) return cb(err);
-
         // make sure the session exists
         if (session) {
         return(null,session)
@@ -46,15 +48,7 @@ SessionSchema.statics.getSession = function(sessionid, cb) {
     });
 };
 
-//UserSchema.methods.makeid = function( cb) {
-//  var text = "";
-//  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-//  for( var i=0; i < 5; i++ )
-//      text += possible.charAt(Math.floor(Math.random() * possible.length));
-
-//  return text;
-//    }
 //}
 
 
