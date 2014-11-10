@@ -15,7 +15,7 @@ var SessionSchema = new Schemae({
 
 SessionSchema.pre('save', function(next) {
     var session = this;
-
+console.log('sessionmodel1');
     // generate a salt
     bcrypt.genSalt(SALT_WORK_FACTOR, function(err, salt) {
         if (err) return next(err);
@@ -29,14 +29,6 @@ SessionSchema.pre('save', function(next) {
             next();
         });
 
-        charSet =  'ABCDEFGHIJK34567890-)(*&^%$#@#$%^&*({}":LKJHGFDFLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-        var randomString = '';
-        for (var i = 0; i < 20; i++) {
-          var randomPoz = Math.floor(Math.random() * charSet.length);
-          randomString += charSet.substring(randomPoz,randomPoz+1);
-        }
-
-        session.sessionid = randomString
 
     });
 
@@ -49,7 +41,6 @@ SessionSchema.pre('save', function(next) {
 SessionSchema.statics.getSession = function(sessionid, cb) {
     this.findOne({ sessionid: sessionid }, function(err, session) {
         if (err) return cb(err);
-
         // make sure the session exists
         if (session) {
         return(null,session)
@@ -57,15 +48,7 @@ SessionSchema.statics.getSession = function(sessionid, cb) {
     });
 };
 
-UserSchema.methods.makeid = function (len, charSet) {
-    charSet = charSet || 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-    var randomString = '';
-    for (var i = 0; i < len; i++) {
-    	var randomPoz = Math.floor(Math.random() * charSet.length);
-    	randomString += charSet.substring(randomPoz,randomPoz+1);
-    }
-    return randomString;
-}
+
 //}
 
 

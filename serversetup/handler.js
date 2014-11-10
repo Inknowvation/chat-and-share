@@ -3,10 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
- var qs = require('querystring')
- var mongoose = require('mongoose')
-  var  User = require('/Users/mathieuvandenmooter/atom/chat-and-share/data/models/user_model.js')
-  var  Session = require('/Users/mathieuvandenmooter/atom/chat-and-share/data/models/session_model.js');
+var qs = require('querystring')
+var mongoose = require('mongoose')
+var  User = require('/Users/mathieuvandenmooter/atom/chat-and-share/data/models/user_model.js')
+var  Session = require('/Users/mathieuvandenmooter/atom/chat-and-share/data/models/session_model.js'),
+  bcrypt = require('bcrypt'),
+ SALT_WORK_FACTOR = 10;
 
 
 
@@ -59,8 +61,17 @@ User.getAuthenticated(post['username'], post['password'], function(err, user, re
         // login was successful if we have a user
         if (user) {
           //create session
+          console.log('sessionmodel2');
+          charSet =  'ABCDEFGHIJK34567890-)(*&^%$#@#$%^&*({}":LKJHGFDFLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+          var randomString = '';
+          for (var i = 0; i < 20; i++) {
+            var randomPoz = Math.floor(Math.random() * charSet.length);
+            randomString += charSet.substring(randomPoz,randomPoz+1);
+          }
+          var gensessionid = randomString;
+
           var newsession = new Session({
-            sessionid: '',
+            sessionid: gensessionid,
             sessionname: 'Sessionuser',
             servername: pathname,
             username: post['username'],
@@ -69,13 +80,13 @@ User.getAuthenticated(post['username'], post['password'], function(err, user, re
             exprires: ''
           })
 
-      //  newsession.save(function (err) {
-      //    console.log(err.message) // something went wrong
-      //  });
+       newsession.save(function (err) {
+          console.log(err) // something went wrong
+          console.log('sessionhandler');
+        });
 
             // handle login success
             console.log('login success');
-            console.log(newsession.sessionid);
             response.writeHead(200, {'Content-Type': 'text/html'});
             response.end(newsession.sessionid);
             return;
@@ -99,6 +110,44 @@ User.getAuthenticated(post['username'], post['password'], function(err, user, re
 
 }
 
+function createuser(postdata,response,request,pathname){
+var post = qs.parse(postdata);
+var reason = 'fail';
+console.log('debugcreateuser');
+console.log(post);
+var newuser = new User({
+    username: post['username'],
+    password: post['password'],
+    loginAttempts: 0,
+    lockUntil: '',
+    loggedIn:0
+});
+
+console.log('debugsave');
+console.log(newuser);
+
+
+User.findOne({username : newuser.username}, function (err, user, cb) {
+        if (user){
+          console.log('Name exists already');
+        }else{
+            newuser.save(function (err) {
+              console.log(err, 'this went wrongggggggggg') // something went wrong
+              });
+        }
+    });
+
+
+
+response.writeHead(200, {'Content-Type': 'text/html'});
+response.end('succes');
+return;
+
+}
+
+function modifyuser(postdata,response,request,pathname){
+
+}
 
 function checksession(postdata,response){
 var post = qs.parse(postdata);
@@ -133,3 +182,5 @@ exports.home = home;
 exports.handlestatic = handlestatic;
 exports.login = login;
 exports.checksession = checksession;
+exports.createuser = createuser;
+exports.modifyuser = modifyuser;

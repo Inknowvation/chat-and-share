@@ -38,6 +38,9 @@ function respondWithHTTPCode(response, code) {
 		else if (request.method	== 'POST' &&   '/session' === pathname){
 				handler.checksession(postdata,response);
 		}
+		else if (request.method	== 'POST' &&   '/createuser' === pathname){
+				handler.createuser(postdata,response);
+		}
 
 // everthing else is blocked with a 404
 	else {
