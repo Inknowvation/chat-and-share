@@ -1,485 +1,725 @@
 User request fired
-/logintimestamp: Fri Oct 31 2014 23:39:32 GMT+0100 (CET)
-userstamp: { host: 'ikv.duckdns.org:8789',
-  connection: 'keep-alive',
-  'content-length': '46',
-  accept: '*/*',
-  origin: 'http://ikv.duckdns.org:8789',
-  'x-requested-with': 'XMLHttpRequest',
-  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip,deflate',
-  'accept-language': 'nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4',
-  cookie: '_ga=GA1.2.915506224.1402305738' }
-ip :192.168.0.1
---------------------------------
-User request fired
-/logintimestamp: Fri Oct 31 2014 23:39:34 GMT+0100 (CET)
-userstamp: { host: 'ikv.duckdns.org:8789',
-  connection: 'keep-alive',
-  'content-length': '46',
-  accept: '*/*',
-  origin: 'http://ikv.duckdns.org:8789',
-  'x-requested-with': 'XMLHttpRequest',
-  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip,deflate',
-  'accept-language': 'nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4',
-  cookie: '_ga=GA1.2.915506224.1402305738' }
-ip :192.168.0.1
---------------------------------
-User request fired
-/logintimestamp: Fri Oct 31 2014 23:39:42 GMT+0100 (CET)
+/timestamp: Sun Nov 16 2014 16:52:06 GMT+0100 (CET)
 userstamp: { host: 'ikv.duckdns.org:8789',
   connection: 'keep-alive',
   accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
   'accept-encoding': 'gzip,deflate,sdch',
-  'accept-language': 'nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
   cookie: '_ga=GA1.2.915506224.1402305738' }
 ip :192.168.0.1
 --------------------------------
 User request fired
-/admin.htmltimestamp: Fri Oct 31 2014 23:39:49 GMT+0100 (CET)
-userstamp: { host: 'ikv.duckdns.org:8789',
-  connection: 'keep-alive',
-  'content-length': '0',
-  accept: '*/*',
-  origin: 'http://ikv.duckdns.org:8789',
-  'x-requested-with': 'XMLHttpRequest',
-  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip,deflate',
-  'accept-language': 'nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4',
-  cookie: '_ga=GA1.2.915506224.1402305738' }
-ip :192.168.0.1
---------------------------------
 User request fired
-/logintimestamp: Fri Oct 31 2014 23:39:55 GMT+0100 (CET)
-userstamp: { host: 'ikv.duckdns.org:8789',
-  connection: 'keep-alive',
-  'content-length': '46',
-  accept: '*/*',
-  origin: 'http://ikv.duckdns.org:8789',
-  'x-requested-with': 'XMLHttpRequest',
-  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip,deflate',
-  'accept-language': 'nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4',
-  cookie: '_ga=GA1.2.915506224.1402305738' }
-ip :192.168.0.1
---------------------------------
 User request fired
-/logintimestamp: Fri Oct 31 2014 23:39:56 GMT+0100 (CET)
-userstamp: { host: 'ikv.duckdns.org:8789',
-  connection: 'keep-alive',
-  'content-length': '46',
-  accept: '*/*',
-  origin: 'http://ikv.duckdns.org:8789',
-  'x-requested-with': 'XMLHttpRequest',
-  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip,deflate',
-  'accept-language': 'nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4',
-  cookie: '_ga=GA1.2.915506224.1402305738' }
-ip :192.168.0.1
---------------------------------
 User request fired
-/logintimestamp: Fri Oct 31 2014 23:39:57 GMT+0100 (CET)
-userstamp: { host: 'ikv.duckdns.org:8789',
-  connection: 'keep-alive',
-  'content-length': '46',
-  accept: '*/*',
-  origin: 'http://ikv.duckdns.org:8789',
-  'x-requested-with': 'XMLHttpRequest',
-  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip,deflate',
-  'accept-language': 'nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4',
-  cookie: '_ga=GA1.2.915506224.1402305738' }
-ip :192.168.0.1
---------------------------------
-User request fired
-/logintimestamp: Fri Oct 31 2014 23:39:57 GMT+0100 (CET)
-userstamp: { host: 'ikv.duckdns.org:8789',
-  connection: 'keep-alive',
-  'content-length': '46',
-  accept: '*/*',
-  origin: 'http://ikv.duckdns.org:8789',
-  'x-requested-with': 'XMLHttpRequest',
-  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip,deflate',
-  'accept-language': 'nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4',
-  cookie: '_ga=GA1.2.915506224.1402305738' }
-ip :192.168.0.1
---------------------------------
-User request fired
-/logintimestamp: Fri Oct 31 2014 23:39:57 GMT+0100 (CET)
-userstamp: { host: 'ikv.duckdns.org:8789',
-  connection: 'keep-alive',
-  'content-length': '46',
-  accept: '*/*',
-  origin: 'http://ikv.duckdns.org:8789',
-  'x-requested-with': 'XMLHttpRequest',
-  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip,deflate',
-  'accept-language': 'nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4',
-  cookie: '_ga=GA1.2.915506224.1402305738' }
-ip :192.168.0.1
---------------------------------
-User request fired
-/logintimestamp: Fri Oct 31 2014 23:39:57 GMT+0100 (CET)
-userstamp: { host: 'ikv.duckdns.org:8789',
-  connection: 'keep-alive',
-  'content-length': '46',
-  accept: '*/*',
-  origin: 'http://ikv.duckdns.org:8789',
-  'x-requested-with': 'XMLHttpRequest',
-  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip,deflate',
-  'accept-language': 'nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4',
-  cookie: '_ga=GA1.2.915506224.1402305738' }
-ip :192.168.0.1
---------------------------------
-User request fired
-/timestamp: Fri Oct 31 2014 23:41:41 GMT+0100 (CET)
-userstamp: { host: 'ikv.duckdns.org:8789',
-  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-  'accept-language': 'nl-nl',
-  connection: 'keep-alive',
-  'accept-encoding': 'gzip, deflate',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25' }
-ip :141.134.192.224
---------------------------------
-User request fired
-/CSS/Maincss.csstimestamp: Fri Oct 31 2014 23:41:41 GMT+0100 (CET)
+/CSS/Maincss.css/js/login.js/js/session.js/...timestamp: Sun Nov 16 2014 16:52:07 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 16:52:07 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 16:52:07 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 16:52:07 GMT+0100 (CET)
 userstamp: { host: 'ikv.duckdns.org:8789',
   connection: 'keep-alive',
   accept: 'text/css,*/*;q=0.1',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
-  'accept-language': 'nl-nl',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
   referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip, deflate' }
-User request fired
-User request fired
-ip :141.134.192.224
-/js/session.js/js/login.js--------------------------------
-timestamp: Fri Oct 31 2014 23:41:41 GMT+0100 (CET)
-timestamp: Fri Oct 31 2014 23:41:41 GMT+0100 (CET)
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
 userstamp: { host: 'ikv.duckdns.org:8789',
   connection: 'keep-alive',
   accept: '*/*',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
-  'accept-language': 'nl-nl',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
   referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip, deflate' }
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
 userstamp: { host: 'ikv.duckdns.org:8789',
   connection: 'keep-alive',
   accept: '*/*',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
-  'accept-language': 'nl-nl',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
   referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip, deflate' }
-ip :141.134.192.224
-ip :141.134.192.224
---------------------------------
---------------------------------
-User request fired
-/...timestamp: Fri Oct 31 2014 23:41:42 GMT+0100 (CET)
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
 userstamp: { host: 'ikv.duckdns.org:8789',
   connection: 'keep-alive',
-  accept: '*/*',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
-  'accept-language': 'nl-nl',
+  accept: 'image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
   referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip, deflate' }
-ip :141.134.192.224
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+ip :192.168.0.1
+ip :192.168.0.1
+ip :192.168.0.1
+--------------------------------
+--------------------------------
+--------------------------------
 --------------------------------
 User request fired
-/admin.htmltimestamp: Fri Oct 31 2014 23:41:42 GMT+0100 (CET)
+/...timestamp: Sun Nov 16 2014 16:52:07 GMT+0100 (CET)
 userstamp: { host: 'ikv.duckdns.org:8789',
-  origin: 'http://ikv.duckdns.org:8789',
-  'accept-encoding': 'gzip, deflate',
+  connection: 'keep-alive',
+  accept: 'image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+--------------------------------
+User request fired
+/admin.htmltimestamp: Sun Nov 16 2014 16:52:07 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
   'content-length': '0',
-  connection: 'keep-alive',
-  accept: '*/*',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-language': 'nl-nl',
-  'x-requested-with': 'XMLHttpRequest' }
-ip :141.134.192.224
---------------------------------
-User request fired
-/favicon.icotimestamp: Fri Oct 31 2014 23:41:42 GMT+0100 (CET)
-userstamp: { host: 'ikv.duckdns.org:8789',
-  connection: 'keep-alive',
-  accept: '*/*',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
-  'accept-language': 'nl-nl',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip, deflate' }
-ip :141.134.192.224
---------------------------------
-User request fired
-/logintimestamp: Fri Oct 31 2014 23:41:56 GMT+0100 (CET)
-userstamp: { host: 'ikv.duckdns.org:8789',
-  connection: 'keep-alive',
-  'content-length': '46',
   accept: '*/*',
   origin: 'http://ikv.duckdns.org:8789',
   'x-requested-with': 'XMLHttpRequest',
-  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
   referer: 'http://ikv.duckdns.org:8789/',
   'accept-encoding': 'gzip,deflate',
-  'accept-language': 'nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
   cookie: '_ga=GA1.2.915506224.1402305738' }
 ip :192.168.0.1
 --------------------------------
 User request fired
-/logintimestamp: Fri Oct 31 2014 23:41:56 GMT+0100 (CET)
+/timestamp: Sun Nov 16 2014 16:52:16 GMT+0100 (CET)
 userstamp: { host: 'ikv.duckdns.org:8789',
   connection: 'keep-alive',
-  'content-length': '46',
-  accept: '*/*',
-  origin: 'http://ikv.duckdns.org:8789',
-  'x-requested-with': 'XMLHttpRequest',
-  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip,deflate',
-  'accept-language': 'nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4',
+  'cache-control': 'max-age=0',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
   cookie: '_ga=GA1.2.915506224.1402305738' }
 ip :192.168.0.1
 --------------------------------
 User request fired
-/logintimestamp: Fri Oct 31 2014 23:41:57 GMT+0100 (CET)
+/CSS/Maincss.cssUser request fired
+User request fired
+User request fired
+timestamp: Sun Nov 16 2014 16:52:16 GMT+0100 (CET)
+/js/login.js/js/session.js/...userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: 'text/css,*/*;q=0.1',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+timestamp: Sun Nov 16 2014 16:52:16 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 16:52:16 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 16:52:16 GMT+0100 (CET)
+ip :192.168.0.1
 userstamp: { host: 'ikv.duckdns.org:8789',
   connection: 'keep-alive',
-  'content-length': '46',
+  'cache-control': 'max-age=0',
   accept: '*/*',
-  origin: 'http://ikv.duckdns.org:8789',
-  'x-requested-with': 'XMLHttpRequest',
-  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
   referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip,deflate',
-  'accept-language': 'nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: 'image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+--------------------------------
+ip :192.168.0.1
+ip :192.168.0.1
+ip :192.168.0.1
+--------------------------------
+--------------------------------
+--------------------------------
+User request fired
+/...timestamp: Sun Nov 16 2014 16:52:16 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: 'image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
   cookie: '_ga=GA1.2.915506224.1402305738' }
 ip :192.168.0.1
 --------------------------------
 User request fired
-/logintimestamp: Fri Oct 31 2014 23:41:57 GMT+0100 (CET)
+/admin.htmltimestamp: Sun Nov 16 2014 16:52:16 GMT+0100 (CET)
 userstamp: { host: 'ikv.duckdns.org:8789',
   connection: 'keep-alive',
-  'content-length': '46',
+  'content-length': '0',
+  'cache-control': 'max-age=0',
   accept: '*/*',
   origin: 'http://ikv.duckdns.org:8789',
   'x-requested-with': 'XMLHttpRequest',
-  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
   referer: 'http://ikv.duckdns.org:8789/',
   'accept-encoding': 'gzip,deflate',
-  'accept-language': 'nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
   cookie: '_ga=GA1.2.915506224.1402305738' }
 ip :192.168.0.1
 --------------------------------
 User request fired
-/logintimestamp: Fri Oct 31 2014 23:42:22 GMT+0100 (CET)
-userstamp: { host: 'ikv.duckdns.org:8789',
-  origin: 'http://ikv.duckdns.org:8789',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding': 'gzip, deflate',
-  'content-length': '46',
-  connection: 'keep-alive',
-  accept: '*/*',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-language': 'nl-nl',
-  'x-requested-with': 'XMLHttpRequest' }
-ip :141.134.192.224
---------------------------------
-User request fired
-/logintimestamp: Fri Oct 31 2014 23:42:25 GMT+0100 (CET)
-userstamp: { host: 'ikv.duckdns.org:8789',
-  origin: 'http://ikv.duckdns.org:8789',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding': 'gzip, deflate',
-  'content-length': '46',
-  connection: 'keep-alive',
-  accept: '*/*',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-language': 'nl-nl',
-  'x-requested-with': 'XMLHttpRequest' }
-ip :141.134.192.224
---------------------------------
-User request fired
-/logintimestamp: Fri Oct 31 2014 23:42:31 GMT+0100 (CET)
+/...timestamp: Sun Nov 16 2014 16:52:16 GMT+0100 (CET)
 userstamp: { host: 'ikv.duckdns.org:8789',
   connection: 'keep-alive',
-  'content-length': '49',
-  accept: '*/*',
-  origin: 'http://ikv.duckdns.org:8789',
-  'x-requested-with': 'XMLHttpRequest',
-  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip,deflate',
-  'accept-language': 'nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4',
+  accept: 'image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
   cookie: '_ga=GA1.2.915506224.1402305738' }
 ip :192.168.0.1
 --------------------------------
 User request fired
-/admin.htmltimestamp: Fri Oct 31 2014 23:42:39 GMT+0100 (CET)
+/testertimestamp: Sun Nov 16 2014 16:52:45 GMT+0100 (CET)
 userstamp: { host: 'ikv.duckdns.org:8789',
-  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-  'accept-language': 'nl-nl',
   connection: 'keep-alive',
-  'accept-encoding': 'gzip, deflate',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25' }
-ip :141.134.192.224
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
 --------------------------------
 User request fired
-User request fired
-/js/session.js/CSS/Maincss.csstimestamp: Fri Oct 31 2014 23:42:39 GMT+0100 (CET)
-timestamp: Fri Oct 31 2014 23:42:39 GMT+0100 (CET)
+/tester.htmltimestamp: Sun Nov 16 2014 16:52:55 GMT+0100 (CET)
 userstamp: { host: 'ikv.duckdns.org:8789',
   connection: 'keep-alive',
-  accept: '*/*',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
-  'accept-language': 'nl-nl',
-  referer: 'http://ikv.duckdns.org:8789/admin.html',
-  'accept-encoding': 'gzip, deflate' }
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+--------------------------------
+User request fired
+/tester.htmltimestamp: Sun Nov 16 2014 16:54:11 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+--------------------------------
+User request fired
+/timestamp: Sun Nov 16 2014 16:55:44 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+--------------------------------
+User request fired
+/CSS/Maincss.csstimestamp: Sun Nov 16 2014 16:55:44 GMT+0100 (CET)
 userstamp: { host: 'ikv.duckdns.org:8789',
   connection: 'keep-alive',
   accept: 'text/css,*/*;q=0.1',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
-  'accept-language': 'nl-nl',
-  referer: 'http://ikv.duckdns.org:8789/admin.html',
-  'accept-encoding': 'gzip, deflate' }
-ip :141.134.192.224
-ip :141.134.192.224
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+--------------------------------
+User request fired
+/js/login.jstimestamp: Sun Nov 16 2014 16:55:44 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+--------------------------------
+User request fired
+/js/session.jstimestamp: Sun Nov 16 2014 16:55:44 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+--------------------------------
+User request fired
+/timestamp: Sun Nov 16 2014 16:57:20 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+--------------------------------
+User request fired
+/timestamp: Sun Nov 16 2014 19:09:39 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+--------------------------------
+User request fired
+/timestamp: Sun Nov 16 2014 19:11:55 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+--------------------------------
+User request fired
+User request fired
+User request fired
+User request fired
+/CSS/Maincss.css/js/login.js/js/session.js/...timestamp: Sun Nov 16 2014 19:11:55 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 19:11:55 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 19:11:55 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 19:11:55 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: 'text/css,*/*;q=0.1',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: 'image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+ip :192.168.0.1
+ip :192.168.0.1
+ip :192.168.0.1
+--------------------------------
+--------------------------------
 --------------------------------
 --------------------------------
 User request fired
-/...User request fired
-timestamp: Fri Oct 31 2014 23:42:40 GMT+0100 (CET)
-/admin.htmluserstamp: { host: 'ikv.duckdns.org:8789',
-  connection: 'keep-alive',
-  accept: '*/*',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
-  'accept-language': 'nl-nl',
-  referer: 'http://ikv.duckdns.org:8789/admin.html',
-  'accept-encoding': 'gzip, deflate' }
-timestamp: Fri Oct 31 2014 23:42:40 GMT+0100 (CET)
-ip :141.134.192.224
+/...timestamp: Sun Nov 16 2014 19:11:55 GMT+0100 (CET)
 userstamp: { host: 'ikv.duckdns.org:8789',
-  origin: 'http://ikv.duckdns.org:8789',
-  'accept-encoding': 'gzip, deflate',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: 'image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+--------------------------------
+User request fired
+/admin.htmltimestamp: Sun Nov 16 2014 19:11:55 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
   'content-length': '0',
-  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
   accept: '*/*',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
-  referer: 'http://ikv.duckdns.org:8789/admin.html',
-  'accept-language': 'nl-nl',
-  'x-requested-with': 'XMLHttpRequest' }
---------------------------------
-ip :141.134.192.224
+  origin: 'http://ikv.duckdns.org:8789',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
 --------------------------------
 User request fired
-/...User request fired
-timestamp: Fri Oct 31 2014 23:43:00 GMT+0100 (CET)
-/admin.htmluserstamp: { host: 'ikv.duckdns.org:8789',
-  connection: 'keep-alive',
-  accept: '*/*',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
-  'accept-language': 'nl-nl',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-encoding': 'gzip, deflate' }
-timestamp: Fri Oct 31 2014 23:43:00 GMT+0100 (CET)
-ip :141.134.192.224
+/...timestamp: Sun Nov 16 2014 19:12:20 GMT+0100 (CET)
 userstamp: { host: 'ikv.duckdns.org:8789',
-  origin: 'http://ikv.duckdns.org:8789',
-  'accept-encoding': 'gzip, deflate',
+  connection: 'keep-alive',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+--------------------------------
+User request fired
+/admin.htmltimestamp: Sun Nov 16 2014 19:12:23 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
   'content-length': '0',
-  connection: 'keep-alive',
   accept: '*/*',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
+  origin: 'http://ikv.duckdns.org:8789',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
   referer: 'http://ikv.duckdns.org:8789/',
-  'accept-language': 'nl-nl',
-  'x-requested-with': 'XMLHttpRequest' }
---------------------------------
-ip :141.134.192.224
+  'accept-encoding': 'gzip,deflate',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
 --------------------------------
 User request fired
-/logintimestamp: Fri Oct 31 2014 23:43:21 GMT+0100 (CET)
+/...timestamp: Sun Nov 16 2014 19:12:26 GMT+0100 (CET)
 userstamp: { host: 'ikv.duckdns.org:8789',
-  origin: 'http://ikv.duckdns.org:8789',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding': 'gzip, deflate',
-  'content-length': '46',
   connection: 'keep-alive',
-  accept: '*/*',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
   referer: 'http://ikv.duckdns.org:8789/',
-  'accept-language': 'nl-nl',
-  'x-requested-with': 'XMLHttpRequest' }
-ip :141.134.192.224
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
 --------------------------------
 User request fired
-/logintimestamp: Fri Oct 31 2014 23:43:50 GMT+0100 (CET)
+/admin.htmltimestamp: Sun Nov 16 2014 19:12:28 GMT+0100 (CET)
 userstamp: { host: 'ikv.duckdns.org:8789',
-  origin: 'http://ikv.duckdns.org:8789',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding': 'gzip, deflate',
-  'content-length': '46',
   connection: 'keep-alive',
+  'content-length': '0',
   accept: '*/*',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
+  origin: 'http://ikv.duckdns.org:8789',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
   referer: 'http://ikv.duckdns.org:8789/',
-  'accept-language': 'nl-nl',
-  'x-requested-with': 'XMLHttpRequest' }
-ip :141.134.192.224
+  'accept-encoding': 'gzip,deflate',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
 --------------------------------
 User request fired
-/logintimestamp: Fri Oct 31 2014 23:43:50 GMT+0100 (CET)
+/timestamp: Sun Nov 16 2014 19:13:49 GMT+0100 (CET)
 userstamp: { host: 'ikv.duckdns.org:8789',
-  origin: 'http://ikv.duckdns.org:8789',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding': 'gzip, deflate',
-  'content-length': '46',
   connection: 'keep-alive',
-  accept: '*/*',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-language': 'nl-nl',
-  'x-requested-with': 'XMLHttpRequest' }
-ip :141.134.192.224
+  'cache-control': 'max-age=0',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
 --------------------------------
 User request fired
-/logintimestamp: Fri Oct 31 2014 23:43:50 GMT+0100 (CET)
+User request fired
+User request fired
+User request fired
+/CSS/Maincss.css/js/login.js/js/session.js/...timestamp: Sun Nov 16 2014 19:13:49 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 19:13:50 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 19:13:50 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 19:13:50 GMT+0100 (CET)
 userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: 'text/css,*/*;q=0.1',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: 'image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+ip :192.168.0.1
+ip :192.168.0.1
+ip :192.168.0.1
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+User request fired
+/...timestamp: Sun Nov 16 2014 19:13:50 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: 'image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+User request fired
+--------------------------------
+/admin.htmltimestamp: Sun Nov 16 2014 19:13:50 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'content-length': '0',
+  'cache-control': 'max-age=0',
+  accept: '*/*',
   origin: 'http://ikv.duckdns.org:8789',
-  'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-  'accept-encoding': 'gzip, deflate',
-  'content-length': '46',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/',
+  'accept-encoding': 'gzip,deflate',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+--------------------------------
+User request fired
+/test.htmltimestamp: Sun Nov 16 2014 19:13:55 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+--------------------------------
+User request fired
+/app.htmltimestamp: Sun Nov 16 2014 19:14:00 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+--------------------------------
+User request fired
+User request fired
+/CSS/Maincss.css/CSS/dropboxCSS.cssUser request fired
+User request fired
+User request fired
+timestamp: Sun Nov 16 2014 19:14:00 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 19:14:00 GMT+0100 (CET)
+/js/login.js/js/session.js/...userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: 'text/css,*/*;q=0.1',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/app.html',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: 'text/css,*/*;q=0.1',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/app.html',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+timestamp: Sun Nov 16 2014 19:14:00 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 19:14:00 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 19:14:00 GMT+0100 (CET)
+ip :192.168.0.1
+ip :192.168.0.1
+userstamp: { host: 'ikv.duckdns.org:8789',
   connection: 'keep-alive',
   accept: '*/*',
-  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25',
-  referer: 'http://ikv.duckdns.org:8789/',
-  'accept-language': 'nl-nl',
-  'x-requested-with': 'XMLHttpRequest' }
-ip :141.134.192.224
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/app.html',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/app.html',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: 'image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/app.html',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+--------------------------------
+--------------------------------
+ip :192.168.0.1
+ip :192.168.0.1
+ip :192.168.0.1
+User request fired
+--------------------------------
+--------------------------------
+--------------------------------
+/app.htmltimestamp: Sun Nov 16 2014 19:14:00 GMT+0100 (CET)
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
+--------------------------------
+User request fired
+User request fired
+/CSS/Maincss.css/CSS/dropboxCSS.csstimestamp: Sun Nov 16 2014 19:14:01 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 19:14:01 GMT+0100 (CET)
+User request fired
+User request fired
+User request fired
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: 'text/css,*/*;q=0.1',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/app.html',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: 'text/css,*/*;q=0.1',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/app.html',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+/js/login.js/js/session.js/...ip :192.168.0.1
+ip :192.168.0.1
+timestamp: Sun Nov 16 2014 19:14:01 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 19:14:01 GMT+0100 (CET)
+timestamp: Sun Nov 16 2014 19:14:01 GMT+0100 (CET)
+--------------------------------
+--------------------------------
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/app.html',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/app.html',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: 'image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/app.html',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+User request fired
+ip :192.168.0.1
+ip :192.168.0.1
+ip :192.168.0.1
+/...--------------------------------
+--------------------------------
+--------------------------------
+timestamp: Sun Nov 16 2014 19:14:01 GMT+0100 (CET)
+User request fired
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: 'image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/app.html',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+/admin.htmlip :192.168.0.1
+timestamp: Sun Nov 16 2014 19:14:01 GMT+0100 (CET)
+User request fired
+--------------------------------
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  'content-length': '0',
+  accept: '*/*',
+  origin: 'http://ikv.duckdns.org:8789',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  referer: 'http://ikv.duckdns.org:8789/app.html',
+  'accept-encoding': 'gzip,deflate',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+/...ip :192.168.0.1
+timestamp: Sun Nov 16 2014 19:14:01 GMT+0100 (CET)
+--------------------------------
+userstamp: { host: 'ikv.duckdns.org:8789',
+  connection: 'keep-alive',
+  accept: 'image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'accept-language': 'en,nl;q=0.8,en-US;q=0.6',
+  cookie: '_ga=GA1.2.915506224.1402305738' }
+ip :192.168.0.1
 --------------------------------
