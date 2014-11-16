@@ -8,8 +8,13 @@ The server reads the request, the router decides how it should be handled and ha
 
 
 function respondWithHTTPCode(response, code) {
-	response.writeHead(code, {'Content-Type': 'text/plain'});
-	response.end();
+  console.log("Responded with HTTP code ", code)
+
+  response.writeHead(code, {'Content-Type': 'text/plain'});
+  if(code === 404) {
+    response.write("404: Not Found !");
+  }
+  response.end();
 }
 
 function home(pathname,response){
@@ -39,7 +44,6 @@ function handlestatic(pathname,response) {
             response.end(fs.readFileSync(staticpathname));
           }
           else {
-
             respondWithHTTPCode(response, 404);
           }
 
@@ -105,3 +109,4 @@ User.getAuthenticated(post['username'], post['password'], function(err, user, re
 exports.home = home;
 exports.handlestatic = handlestatic;
 exports.login = login;
+exports.respondWithHTTPCode = respondWithHTTPCode;

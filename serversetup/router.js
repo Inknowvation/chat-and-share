@@ -2,12 +2,6 @@
 
 fs = require('fs');
 handler = require('./handler');
-;
-
-function respondWithHTTPCode(response, code) {
-	response.writeHead(code, {'Content-Type': 'text/plain'});
-	response.end();
-}
 
 /* What follows here is the description of every route that is allowed
 	A route depends on a request from a certain pathname
@@ -21,27 +15,26 @@ function respondWithHTTPCode(response, code) {
 
 // from the request we can get a certain method, two options : GET and POST
 // the first route routes everything to the homepage if no extension is specifieds
-		if (request.method	== 'GET' && '/' === pathname){
+		if (request.method	=== 'GET' && '/' === pathname){
 			handler.home(pathname,response);
 			console.log('/');
 		}
 
 // the second route sends everything that ends with html, css or js through to the handlestatic
-	 	else if (request.method	== 'GET' && ('html' === extension ||'css' === extension || 'js' === extension)) {
+		else if (request.method === 'GET' && ('html' === extension ||'css' === extension || 'js' === extension)) {
 				handler.handlestatic(pathname,response);
 		}
 
 // the third route is a POST where the user dumps data towards the server on the login page
-		else if (request.method	== 'POST' &&   '/login' === pathname){
+		else if (request.method === 'POST' &&   '/login' === pathname){
 				handler.login(postdata,response,request,pathname);
 		}
 
 // everthing else is blocked with a 404
-	else {
-			respondWithHTTPCode(response, 404);
+		else {
+			handler.respondWithHTTPCode(response, 404);
 		}
 
 }
 
-// ik weet niet goed wat dit moet doen ..
 exports.route = route;
