@@ -1,0 +1,14 @@
+{
+  "name": "chat-and-share",
+  "version": "1.0.0",
+  "description": "Share your file and discuss",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Inknowvation/chat-and-share.git"
+  },
+  "dependencies": {
+    "mongodb": "~2.0"
+  },
+  "author": "Steven Desair & Mathieu Van den Mooter"
+}

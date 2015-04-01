@@ -1,11 +1,35 @@
-var mongoose = require('mongoose'),
-    Schema = mongoose.Schema,
-    bcrypt = require('bcrypt'),
-    SALT_WORK_FACTOR = 10,
+    var bcrypt = require('bcrypt');
+    var SALT_WORK_FACTOR = 10;
     // these values can be whatever you want - we're defaulting to a
     // max of 5 attempts, resulting in a 2 hour lock
-    MAX_LOGIN_ATTEMPTS = 5,
-    LOCK_TIME = 2 * 60 * 60 * 1000;
+    var MAX_LOGIN_ATTEMPTS = 5;
+    var LOCK_TIME = 2 * 60 * 60 * 1000;
+    var config = require('../serversetup/config.js');
+    var mongo = require('mongodb'),
+    Server = mongo.Server,
+    db = mongo.Db;
+    var url = config.mongodbloc;
+
+    db.connect(url, {auto_reconnect:true}, function(err, db) {
+      if(!err) {
+        console.log("We are connected");
+      }
+    });
+
+    db.open(function(err, db) {
+    if(err) { return console.dir(err); }
+
+    db.createCollection('user', {w:1}, function(err, collection) {
+
+      if(err){
+
+      }
+
+
+
+    });
+
+    });
 
 var UserSchema = new Schema({
     username: { type: String, required: true, index: { unique: true } },

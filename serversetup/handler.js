@@ -61,15 +61,13 @@ User.getAuthenticated(post['username'], post['password'], function(err, user, re
         // login was successful if we have a user
         if (user) {
           //create session
-          console.log('sessionmodel2');
           charSet =  'ABCDEFGHIJK34567890-)(*&^%$#@#$%^&*({}":LKJHGFDFLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
           var randomString = '';
           for (var i = 0; i < 20; i++) {
-            var randomPoz = Math.floor(Math.random() * charSet.length);
-            randomString += charSet.substring(randomPoz,randomPoz+1);
+          var randomPoz = Math.floor(Math.random() * charSet.length);
+          randomString += charSet.substring(randomPoz,randomPoz+1);
           }
           var gensessionid = randomString;
-
           var newsession = new Session({
             sessionid: gensessionid,
             sessionname: 'Sessionuser',
@@ -81,10 +79,9 @@ User.getAuthenticated(post['username'], post['password'], function(err, user, re
           })
 
        newsession.save(function (err) {
-          console.log(err) // something went wrong
+          console.log(err) // something went wrong,handle this still
           console.log('sessionhandler');
         });
-
             // handle login success
             console.log('login success');
             response.writeHead(200, {'Content-Type': 'text/html'});
