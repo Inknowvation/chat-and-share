@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -11,11 +12,25 @@ var  Session = require('/Users/mathieuvandenmooter/atom/chat-and-share/data/mode
  SALT_WORK_FACTOR = 10;
 
 
+=======
+/* The handler deals with all the "business" logic after being send through by the router.
+The server reads the request, the router decides how it should be handled and handler does the work.
+*/
+  var qs = require('querystring')
+  var mongoose = require('mongoose')
+  var  User = require('../data/models/user_model.js')
+  var  Session = require('../data/models/session_model.js');
+>>>>>>> FETCH_HEAD
 
 
 function respondWithHTTPCode(response, code) {
-	response.writeHead(code, {'Content-Type': 'text/plain'});
-	response.end();
+  console.log("Responded with HTTP code ", code)
+
+  response.writeHead(code, {'Content-Type': 'text/plain'});
+  if(code === 404) {
+    response.write("404: Not Found !");
+  }
+  response.end();
 }
 
 function home(pathname,response){
@@ -45,7 +60,6 @@ function handlestatic(pathname,response) {
             response.end(fs.readFileSync(staticpathname));
           }
           else {
-
             respondWithHTTPCode(response, 404);
           }
 
@@ -181,6 +195,10 @@ Session.getSession(post['sessionid'], function(err, session, reason) {
 exports.home = home;
 exports.handlestatic = handlestatic;
 exports.login = login;
+<<<<<<< HEAD
 exports.checksession = checksession;
 exports.createuser = createuser;
 exports.modifyuser = modifyuser;
+=======
+exports.respondWithHTTPCode = respondWithHTTPCode;
+>>>>>>> FETCH_HEAD
